@@ -312,6 +312,9 @@
 					w.dom(element).attr("src", a);
 				});
 
+			},
+			"A": function(a) {
+				w.dom(element).attr('href', a);
 			}
 
 		}
@@ -393,6 +396,8 @@
 			}
 
 		}
+
+
 
 	}
 
